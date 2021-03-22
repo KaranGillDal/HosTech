@@ -121,7 +121,8 @@ router.post('/newuser', (req, res, next)=>{
                                                 notifi.save().then(
                                                 res.status(201).json({
                                                     token: token,
-                                                    userid: _id
+                                                    userid: _id,
+                                                    name: req.body.name
                                                 })
                                                 ).catch(error=>console.log("Unable to create Notification user page"))
                                             ).catch(error=>console.log("Unable to create Total Messages user page"))
