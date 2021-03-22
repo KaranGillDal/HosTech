@@ -1,0 +1,8 @@
+{
+    "env" :{
+        "MONGO_USER" : "karangill",
+        "MONGO_PASSWORD" : "fRzk4S6sooogeI8u",
+        "DATABASE": "Shh_test",
+        "JWT_KEY": "Karansecret"
+    }
+}
